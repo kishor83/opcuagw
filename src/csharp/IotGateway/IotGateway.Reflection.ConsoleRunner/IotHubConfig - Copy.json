@@ -1,0 +1,50 @@
+﻿{
+    "IotHubHostName": "hk-iothub1.azure-devices.net",
+    "TelemetryDevicePool": [
+        {
+            "DeviceId": "Telemetry1",
+            "DeviceKey": "PpCvVPqQdXqNPfp0LcRctnJ0A6yoCinl9ilx0TKfhy0="
+        },
+        {
+            "DeviceId": "Telemetry2",
+            "DeviceKey": "Ztu3OhG/DJFv5QaTNnMNEsI55YDH11Aa2AoQoyPxpz8="
+        },
+        {          
+            "DeviceId": "Telemetry3",
+            "DeviceKey": "8lgb61LlR9/7uUvHTBeuFojRSGIWPsO2EkoNX4KylLk="
+        },
+        {           
+            "DeviceId": "Telemetry4",
+            "DeviceKey": "IWSKpH3/lE4QOhtPEF5KaQ5V9mrzRGaK0X3aEqpwY8U="
+        }
+    ],
+    "CommandDevicePool": [
+        {
+            "DeviceId": "Command1",
+            "DeviceKey": "F/DquscL2gPj16sdBF98GJAKwtXMmWles7ibuNxlV4U="
+        },
+        {
+            "DeviceId": "Command2",
+            "DeviceKey": "nQrlETf9Zml1LyR/Eail8Z4Bg89pTKmolAWUyTZ2Qh8="
+        },
+        {
+            "DeviceId": "Command3",
+            "DeviceKey": "3TMxxKISXfP1A1bx1ryOEt9L86bPENZ1zSDt1IATxcw="
+        }
+    ],
+    "AlarmDevicePool": [
+        {
+            "DeviceId": "Event1",
+            "DeviceKey": "wQh53SvdgSrnZK06hPaSTn+FiwpaJoski3GHSCtE8JE="
+        },
+        {
+            "DeviceId": "Event2",
+            "DeviceKey": "p6n/eW18akCUWzqrWlzjaabsj8si9X9/4HQa1du7q1c="
+        },
+        {
+            "DeviceId": "Event3",
+            "DeviceKey": "X57OJUby0sLe/1HohYkzqrNObhibB+ly0bfWYKHdBXg="
+        }
+    ]
+}  
+ 

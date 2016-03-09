@@ -1,0 +1,1 @@
+{"Parameters":{"High":145.5,"WarnHigh":125.5},"Name":"Airconditioner1.TemperatureSetting"}

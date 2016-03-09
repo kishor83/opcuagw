@@ -1,0 +1,68 @@
+﻿/*
+Copyright(c) Microsoft.All rights reserved.
+
+The MIT License(MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+{
+    "IotHubHostName": "[YOUR_IOTHUB_NAME].azure-devices.net",
+    "TelemetryDevicePool": [
+        {
+            "DeviceId": "Telemetry1",
+            "SasKey": "PpCvVPqQdXqNPfp0LcRctnJ0A6yoCinl9ilx0TKfhy0="
+        },
+        {
+            "DeviceId": "Telemetry2",
+            "SasKey": "Ztu3OhG/DJFv5QaTNnMNEsI55YDH11Aa2AoQoyPxpz8="
+        },
+        {          
+            "DeviceId": "Telemetry3",
+            "SasKey": "8lgb61LlR9/7uUvHTBeuFojRSGIWPsO2EkoNX4KylLk="
+        },
+        {           
+            "DeviceId": "Telemetry4",
+            "SasKey": "IWSKpH3/lE4QOhtPEF5KaQ5V9mrzRGaK0X3aEqpwY8U="
+        }
+    ],
+    "CommandDevicePool": [
+        {
+            "DeviceId": "Command1",
+            "SasKey": "F/DquscL2gPj16sdBF98GJAKwtXMmWles7ibuNxlV4U="
+        },
+        {
+            "DeviceId": "Command2",
+            "SasKey": "nQrlETf9Zml1LyR/Eail8Z4Bg89pTKmolAWUyTZ2Qh8="
+        },
+        {
+            "DeviceId": "Command3",
+            "SasKey": "3TMxxKISXfP1A1bx1ryOEt9L86bPENZ1zSDt1IATxcw="
+        }
+    ],
+    "AlarmDevicePool": [
+        {
+            "DeviceId": "Event1",
+            "SasKey": "wQh53SvdgSrnZK06hPaSTn+FiwpaJoski3GHSCtE8JE="
+        },
+        {
+            "DeviceId": "Event2",
+            "SasKey": "p6n/eW18akCUWzqrWlzjaabsj8si9X9/4HQa1du7q1c="
+        },
+        {
+            "DeviceId": "Event3",
+            "SasKey": "X57OJUby0sLe/1HohYkzqrNObhibB+ly0bfWYKHdBXg="
+        }
+    ]
+}  
+ 
